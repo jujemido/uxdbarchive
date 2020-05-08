@@ -17,6 +17,10 @@
         <title>*|MC:SUBJECT|*</title>
         
     <style type="text/css">
+    		tbody{
+			background-color: red;
+		}
+    
 		p{
 			margin:10px 0;
 			padding:0;
