@@ -36,6 +36,7 @@
 			text-decoration:none;
 		}
 		body,#bodyTable,#bodyCell{
+			background-color: red;
 			height:100%;
 			margin:0;
 			padding:0;
