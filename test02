@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
     <head>
@@ -36,7 +35,6 @@
 			text-decoration:none;
 		}
 		body,#bodyTable,#bodyCell{
-      background-color: transparent;
 			height:100%;
 			margin:0;
 			padding:0;
@@ -105,245 +103,146 @@
 		.mcnDividerBlock{
 			table-layout:fixed !important;
 		}
-	/*
-	@tab Page
-	@section Background Style
-	@tip Set the background color and top border for your email. You may want to choose colors that match your company's branding.
-	*/
 		body,#bodyTable{
-			/*@editable*/background-color:#ffffff;
+			background-color:#ffffff;
 		}
-	/*
-	@tab Page
-	@section Background Style
-	@tip Set the background color and top border for your email. You may want to choose colors that match your company's branding.
-	*/
 		#bodyCell{
-			/*@editable*/border-top:0;
+			border-top:0;
 		}
-	/*
-	@tab Page
-	@section Email Border
-	@tip Set the border for your email.
-	*/
 		.templateContainer{
-			/*@editable*/border:0;
+			border:0;
 		}
-	/*
-	@tab Page
-	@section Heading 1
-	@tip Set the styling for all first-level headings in your emails. These should be the largest of your headings.
-	@style heading 1
-	*/
 		h1{
-			/*@editable*/color:#202020;
-			/*@editable*/font-family:Helvetica;
-			/*@editable*/font-size:26px;
-			/*@editable*/font-style:normal;
-			/*@editable*/font-weight:bold;
-			/*@editable*/line-height:125%;
-			/*@editable*/letter-spacing:normal;
-			/*@editable*/text-align:left;
+			color:#202020;
+			font-family:Helvetica;
+			font-size:26px;
+			font-style:normal;
+			font-weight:bold;
+			line-height:125%;
+			letter-spacing:normal;
+			text-align:left;
 		}
-	/*
-	@tab Page
-	@section Heading 2
-	@tip Set the styling for all second-level headings in your emails.
-	@style heading 2
-	*/
 		h2{
-			/*@editable*/color:#202020;
-			/*@editable*/font-family:Helvetica;
-			/*@editable*/font-size:22px;
-			/*@editable*/font-style:normal;
-			/*@editable*/font-weight:bold;
-			/*@editable*/line-height:125%;
-			/*@editable*/letter-spacing:normal;
-			/*@editable*/text-align:left;
+			color:#202020;
+			font-family:Helvetica;
+			font-size:22px;
+			font-style:normal;
+			font-weight:bold;
+			line-height:125%;
+			letter-spacing:normal;
+			text-align:left;
 		}
-	/*
-	@tab Page
-	@section Heading 3
-	@tip Set the styling for all third-level headings in your emails.
-	@style heading 3
-	*/
 		h3{
-			/*@editable*/color:#202020;
-			/*@editable*/font-family:Helvetica;
-			/*@editable*/font-size:20px;
-			/*@editable*/font-style:normal;
-			/*@editable*/font-weight:bold;
-			/*@editable*/line-height:125%;
-			/*@editable*/letter-spacing:normal;
-			/*@editable*/text-align:left;
+			color:#202020;
+			font-family:Helvetica;
+			font-size:20px;
+			font-style:normal;
+			font-weight:bold;
+			line-height:125%;
+			letter-spacing:normal;
+			text-align:left;
 		}
-	/*
-	@tab Page
-	@section Heading 4
-	@tip Set the styling for all fourth-level headings in your emails. These should be the smallest of your headings.
-	@style heading 4
-	*/
 		h4{
-			/*@editable*/color:#202020;
-			/*@editable*/font-family:Helvetica;
-			/*@editable*/font-size:18px;
-			/*@editable*/font-style:normal;
-			/*@editable*/font-weight:bold;
-			/*@editable*/line-height:125%;
-			/*@editable*/letter-spacing:normal;
-			/*@editable*/text-align:left;
+			color:#202020;
+			font-family:Helvetica;
+			font-size:18px;
+			font-style:normal;
+			font-weight:bold;
+			line-height:125%;
+			letter-spacing:normal;
+			text-align:left;
 		}
-	/*
-	@tab Preheader
-	@section Preheader Style
-	@tip Set the background color and borders for your email's preheader area.
-	*/
 		#templatePreheader{
-			/*@editable*/background-color:transparent;
-			/*@editable*/background-image:none;
-			/*@editable*/background-repeat:no-repeat;
-			/*@editable*/background-position:center;
-			/*@editable*/background-size:cover;
-			/*@editable*/border-top:0;
-			/*@editable*/border-bottom:0;
-			/*@editable*/padding-top:9px;
-			/*@editable*/padding-bottom:9px;
+			background-color:#ffffff;
+			background-image:none;
+			background-repeat:no-repeat;
+			background-position:center;
+			background-size:cover;
+			border-top:0;
+			border-bottom:0;
+			padding-top:9px;
+			padding-bottom:9px;
 		}
-	/*
-	@tab Preheader
-	@section Preheader Text
-	@tip Set the styling for your email's preheader text. Choose a size and color that is easy to read.
-	*/
 		#templatePreheader .mcnTextContent,#templatePreheader .mcnTextContent p{
-			/*@editable*/color:#656565;
-			/*@editable*/font-family:Helvetica;
-			/*@editable*/font-size:12px;
-			/*@editable*/line-height:150%;
-			/*@editable*/text-align:left;
+			color:#656565;
+			font-family:Helvetica;
+			font-size:12px;
+			line-height:150%;
+			text-align:left;
 		}
-	/*
-	@tab Preheader
-	@section Preheader Link
-	@tip Set the styling for your email's preheader links. Choose a color that helps them stand out from your text.
-	*/
 		#templatePreheader .mcnTextContent a,#templatePreheader .mcnTextContent p a{
-			/*@editable*/color:#656565;
-			/*@editable*/font-weight:normal;
-			/*@editable*/text-decoration:underline;
+			color:#656565;
+			font-weight:normal;
+			text-decoration:underline;
 		}
-	/*
-	@tab Header
-	@section Header Style
-	@tip Set the background color and borders for your email's header area.
-	*/
 		#templateHeader{
-			/*@editable*/background-color:transparent;
-			/*@editable*/background-image:none;
-			/*@editable*/background-repeat:no-repeat;
-			/*@editable*/background-position:center;
-			/*@editable*/background-size:cover;
-			/*@editable*/border-top:0;
-			/*@editable*/border-bottom:0;
-			/*@editable*/padding-top:9px;
-			/*@editable*/padding-bottom:0;
+			background-color:#FFFFFF;
+			background-image:none;
+			background-repeat:no-repeat;
+			background-position:center;
+			background-size:cover;
+			border-top:0;
+			border-bottom:0;
+			padding-top:9px;
+			padding-bottom:0;
 		}
-	/*
-	@tab Header
-	@section Header Text
-	@tip Set the styling for your email's header text. Choose a size and color that is easy to read.
-	*/
 		#templateHeader .mcnTextContent,#templateHeader .mcnTextContent p{
-			/*@editable*/color:#202020;
-			/*@editable*/font-family:Helvetica;
-			/*@editable*/font-size:16px;
-			/*@editable*/line-height:150%;
-			/*@editable*/text-align:left;
+			color:#202020;
+			font-family:Helvetica;
+			font-size:16px;
+			line-height:150%;
+			text-align:left;
 		}
-	/*
-	@tab Header
-	@section Header Link
-	@tip Set the styling for your email's header links. Choose a color that helps them stand out from your text.
-	*/
 		#templateHeader .mcnTextContent a,#templateHeader .mcnTextContent p a{
-			/*@editable*/color:#007C89;
-			/*@editable*/font-weight:normal;
-			/*@editable*/text-decoration:underline;
+			color:#007C89;
+			font-weight:normal;
+			text-decoration:underline;
 		}
-	/*
-	@tab Body
-	@section Body Style
-	@tip Set the background color and borders for your email's body area.
-	*/
 		#templateBody{
-			/*@editable*/background-color:transparent;
-			/*@editable*/background-image:none;
-			/*@editable*/background-repeat:no-repeat;
-			/*@editable*/background-position:center;
-			/*@editable*/background-size:cover;
-			/*@editable*/border-top:0;
-			/*@editable*/border-bottom:0;
-			/*@editable*/padding-top:0;
-			/*@editable*/padding-bottom:9px;
+			background-color:#ffffff;
+			background-image:none;
+			background-repeat:no-repeat;
+			background-position:center;
+			background-size:cover;
+			border-top:0;
+			border-bottom:0;
+			padding-top:0;
+			padding-bottom:9px;
 		}
-	/*
-	@tab Body
-	@section Body Text
-	@tip Set the styling for your email's body text. Choose a size and color that is easy to read.
-	*/
 		#templateBody .mcnTextContent,#templateBody .mcnTextContent p{
-			/*@editable*/color:#202020;
-			/*@editable*/font-family:Helvetica;
-			/*@editable*/font-size:16px;
-			/*@editable*/line-height:150%;
-			/*@editable*/text-align:left;
+			color:#202020;
+			font-family:Helvetica;
+			font-size:16px;
+			line-height:150%;
+			text-align:left;
 		}
-	/*
-	@tab Body
-	@section Body Link
-	@tip Set the styling for your email's body links. Choose a color that helps them stand out from your text.
-	*/
 		#templateBody .mcnTextContent a,#templateBody .mcnTextContent p a{
-			/*@editable*/color:#007C89;
-			/*@editable*/font-weight:normal;
-			/*@editable*/text-decoration:underline;
+			color:#007C89;
+			font-weight:normal;
+			text-decoration:underline;
 		}
-	/*
-	@tab Footer
-	@section Footer Style
-	@tip Set the background color and borders for your email's footer area.
-	*/
 		#templateFooter{
-			/*@editable*/background-color:transparent;
-			/*@editable*/background-image:none;
-			/*@editable*/background-repeat:no-repeat;
-			/*@editable*/background-position:center;
-			/*@editable*/background-size:cover;
-			/*@editable*/border-top:0;
-			/*@editable*/border-bottom:0;
-			/*@editable*/padding-top:9px;
-			/*@editable*/padding-bottom:9px;
+			background-color:#ffffff;
+			background-image:none;
+			background-repeat:no-repeat;
+			background-position:center;
+			background-size:cover;
+			border-top:0;
+			border-bottom:0;
+			padding-top:9px;
+			padding-bottom:9px;
 		}
-	/*
-	@tab Footer
-	@section Footer Text
-	@tip Set the styling for your email's footer text. Choose a size and color that is easy to read.
-	*/
 		#templateFooter .mcnTextContent,#templateFooter .mcnTextContent p{
-			/*@editable*/color:#656565;
-			/*@editable*/font-family:Helvetica;
-			/*@editable*/font-size:12px;
-			/*@editable*/line-height:150%;
-			/*@editable*/text-align:center;
+			color:#656565;
+			font-family:Helvetica;
+			font-size:12px;
+			line-height:150%;
+			text-align:center;
 		}
-	/*
-	@tab Footer
-	@section Footer Link
-	@tip Set the styling for your email's footer links. Choose a color that helps them stand out from your text.
-	*/
 		#templateFooter .mcnTextContent a,#templateFooter .mcnTextContent p a{
-			/*@editable*/color:#656565;
-			/*@editable*/font-weight:normal;
-			/*@editable*/text-decoration:underline;
+			color:#656565;
+			font-weight:normal;
+			text-decoration:underline;
 		}
 	@media only screen and (min-width:768px){
 		.templateContainer{
@@ -439,135 +338,85 @@
 		}
 
 }	@media only screen and (max-width: 480px){
-	/*
-	@tab Mobile Styles
-	@section Heading 1
-	@tip Make the first-level headings larger in size for better readability on small screens.
-	*/
 		h1{
-			/*@editable*/font-size:22px !important;
-			/*@editable*/line-height:125% !important;
+			font-size:22px !important;
+			line-height:125% !important;
 		}
 
 }	@media only screen and (max-width: 480px){
-	/*
-	@tab Mobile Styles
-	@section Heading 2
-	@tip Make the second-level headings larger in size for better readability on small screens.
-	*/
 		h2{
-			/*@editable*/font-size:20px !important;
-			/*@editable*/line-height:125% !important;
+			font-size:20px !important;
+			line-height:125% !important;
 		}
 
 }	@media only screen and (max-width: 480px){
-	/*
-	@tab Mobile Styles
-	@section Heading 3
-	@tip Make the third-level headings larger in size for better readability on small screens.
-	*/
 		h3{
-			/*@editable*/font-size:18px !important;
-			/*@editable*/line-height:125% !important;
+			font-size:18px !important;
+			line-height:125% !important;
 		}
 
 }	@media only screen and (max-width: 480px){
-	/*
-	@tab Mobile Styles
-	@section Heading 4
-	@tip Make the fourth-level headings larger in size for better readability on small screens.
-	*/
 		h4{
-			/*@editable*/font-size:16px !important;
-			/*@editable*/line-height:150% !important;
+			font-size:16px !important;
+			line-height:150% !important;
 		}
 
 }	@media only screen and (max-width: 480px){
-	/*
-	@tab Mobile Styles
-	@section Boxed Text
-	@tip Make the boxed text larger in size for better readability on small screens. We recommend a font size of at least 16px.
-	*/
 		.mcnBoxedTextContentContainer .mcnTextContent,.mcnBoxedTextContentContainer .mcnTextContent p{
-			/*@editable*/font-size:14px !important;
-			/*@editable*/line-height:150% !important;
+			font-size:14px !important;
+			line-height:150% !important;
 		}
 
 }	@media only screen and (max-width: 480px){
-	/*
-	@tab Mobile Styles
-	@section Preheader Visibility
-	@tip Set the visibility of the email's preheader on small screens. You can hide it to save space.
-	*/
 		#templatePreheader{
-			/*@editable*/display:block !important;
+			display:block !important;
 		}
 
 }	@media only screen and (max-width: 480px){
-	/*
-	@tab Mobile Styles
-	@section Preheader Text
-	@tip Make the preheader text larger in size for better readability on small screens.
-	*/
 		#templatePreheader .mcnTextContent,#templatePreheader .mcnTextContent p{
-			/*@editable*/font-size:14px !important;
-			/*@editable*/line-height:150% !important;
+			font-size:14px !important;
+			line-height:150% !important;
 		}
 
 }	@media only screen and (max-width: 480px){
-	/*
-	@tab Mobile Styles
-	@section Header Text
-	@tip Make the header text larger in size for better readability on small screens.
-	*/
 		#templateHeader .mcnTextContent,#templateHeader .mcnTextContent p{
-			/*@editable*/font-size:16px !important;
-			/*@editable*/line-height:150% !important;
+			font-size:16px !important;
+			line-height:150% !important;
 		}
 
 }	@media only screen and (max-width: 480px){
-	/*
-	@tab Mobile Styles
-	@section Body Text
-	@tip Make the body text larger in size for better readability on small screens. We recommend a font size of at least 16px.
-	*/
 		#templateBody .mcnTextContent,#templateBody .mcnTextContent p{
-			/*@editable*/font-size:16px !important;
-			/*@editable*/line-height:150% !important;
+			font-size:16px !important;
+			line-height:150% !important;
 		}
 
 }	@media only screen and (max-width: 480px){
-	/*
-	@tab Mobile Styles
-	@section Footer Text
-	@tip Make the footer content text larger in size for better readability on small screens.
-	*/
 		#templateFooter .mcnTextContent,#templateFooter .mcnTextContent p{
-			/*@editable*/font-size:14px !important;
-			/*@editable*/line-height:150% !important;
+			font-size:14px !important;
+			line-height:150% !important;
 		}
 
 }</style></head>
-    <body>
+    <body style="height: 100%;margin: 0;padding: 0;width: 100%;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;background-color: #ffffff;">
         <!--*|IF:MC_PREVIEW_TEXT|*-->
         <!--[if !gte mso 9]><!----><span class="mcnPreviewText" style="display:none; font-size:0px; line-height:0px; max-height:0px; max-width:0px; opacity:0; overflow:hidden; visibility:hidden; mso-hide:all;">*|MC_PREVIEW_TEXT|*</span><!--<![endif]-->
         <!--*|END:IF|*-->
         <center>
-            <table align="center" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="bodyTable">
+            <table align="center" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="bodyTable" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;height: 100%;margin: 0;padding: 0;width: 100%;background-color: #ffffff;">
                 <tr>
-                    <td align="center" valign="top" id="bodyCell">
+                    <td align="center" valign="top" id="bodyCell" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;height: 100%;margin: 0;padding: 10px;width: 100%;border-top: 0;">
                         <!-- BEGIN TEMPLATE // -->
                         <!--[if (gte mso 9)|(IE)]>
                         <table align="center" border="0" cellspacing="0" cellpadding="0" width="600" style="width:600px;">
                         <tr>
                         <td align="center" valign="top" width="600" style="width:600px;">
                         <![endif]-->
-                        <table border="0" cellpadding="0" cellspacing="0" width="100%" class="templateContainer">
+                        <table border="0" cellpadding="0" cellspacing="0" width="100%" class="templateContainer" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;border: 0;max-width: 600px !important;">
                             <tr>
-                                <td valign="top" id="templatePreheader"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnTextBlock" style="min-width:100%;">
+                                <td valign="top" id="templatePreheader" style="background:#ffffff none no-repeat center/cover;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;background-color: #ffffff;background-image: none;background-repeat: no-repeat;background-position: center;background-size: cover;border-top: 0;border-bottom: 0;padding-top: 9px;padding-bottom: 9px;"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnTextBlock" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
     <tbody class="mcnTextBlockOuter">
         <tr>
-            <td valign="top" class="mcnTextBlockInner" style="padding-top:9px;">
+            <td valign="top" class="mcnTextBlockInner" style="padding-top: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
               	<!--[if mso]>
 				<table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
 				<tr>
@@ -576,12 +425,12 @@
 				<!--[if mso]>
 				<td valign="top" width="600" style="width:600px;">
 				<![endif]-->
-                <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width:100%; min-width:100%;" width="100%" class="mcnTextContentContainer">
+                <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width: 100%;min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%" class="mcnTextContentContainer">
                     <tbody><tr>
                         
-                        <td valign="top" class="mcnTextContent" style="padding: 0px 18px 9px; text-align: center;">
+                        <td valign="top" class="mcnTextContent" style="padding: 0px 18px 9px;text-align: center;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #656565;font-family: Helvetica;font-size: 12px;line-height: 150%;">
                         
-                            <div style="text-align: left;"><a href="*|ARCHIVE|*" target="_blank"><span style="color:#000000">View this email in your browser</span></a></div>
+                            <div style="text-align: left;"><a href="*|ARCHIVE|*" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #656565;font-weight: normal;text-decoration: underline;"><span style="color:#000000">View this email in your browser</span></a></div>
 
                         </td>
                     </tr>
@@ -600,10 +449,10 @@
 </table></td>
                             </tr>
                             <tr>
-                                <td valign="top" id="templateHeader"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnTextBlock" style="min-width:100%;">
+                                <td valign="top" id="templateHeader" style="background:#FFFFFF none no-repeat center/cover;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;background-color: #FFFFFF;background-image: none;background-repeat: no-repeat;background-position: center;background-size: cover;border-top: 0;border-bottom: 0;padding-top: 9px;padding-bottom: 0;"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnTextBlock" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
     <tbody class="mcnTextBlockOuter">
         <tr>
-            <td valign="top" class="mcnTextBlockInner" style="padding-top:9px;">
+            <td valign="top" class="mcnTextBlockInner" style="padding-top: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
               	<!--[if mso]>
 				<table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
 				<tr>
@@ -612,12 +461,12 @@
 				<!--[if mso]>
 				<td valign="top" width="600" style="width:600px;">
 				<![endif]-->
-                <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width:100%; min-width:100%;" width="100%" class="mcnTextContentContainer">
+                <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width: 100%;min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%" class="mcnTextContentContainer">
                     <tbody><tr>
                         
-                        <td valign="top" class="mcnTextContent" style="padding-top:0; padding-right:18px; padding-bottom:9px; padding-left:18px;">
+                        <td valign="top" class="mcnTextContent" style="padding-top: 0;padding-right: 18px;padding-bottom: 9px;padding-left: 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #202020;font-family: Helvetica;font-size: 16px;line-height: 150%;text-align: left;">
                         
-                            <span style="color:#333333"><span style="font-size:22px; padding-bottom:10px"><strong>UX Database Newsletter #04</strong></span></span>
+                            <span style="color:#333333"><span style="font-size:22px; padding-bottom:10px"><strong>UX Database Newsletter #02</strong></span></span>
                         </td>
                     </tr>
                 </tbody></table>
@@ -632,10 +481,10 @@
             </td>
         </tr>
     </tbody>
-</table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnTextBlock" style="min-width:100%;">
+</table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnTextBlock" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
     <tbody class="mcnTextBlockOuter">
         <tr>
-            <td valign="top" class="mcnTextBlockInner" style="padding-top:9px;">
+            <td valign="top" class="mcnTextBlockInner" style="padding-top: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
               	<!--[if mso]>
 				<table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
 				<tr>
@@ -644,12 +493,12 @@
 				<!--[if mso]>
 				<td valign="top" width="600" style="width:600px;">
 				<![endif]-->
-                <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width:100%; min-width:100%;" width="100%" class="mcnTextContentContainer">
+                <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width: 100%;min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%" class="mcnTextContentContainer">
                     <tbody><tr>
                         
-                        <td valign="top" class="mcnTextContent" style="padding-top:0; padding-right:18px; padding-bottom:9px; padding-left:18px;">
+                        <td valign="top" class="mcnTextContent" style="padding-top: 0;padding-right: 18px;padding-bottom: 9px;padding-left: 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #202020;font-family: Helvetica;font-size: 16px;line-height: 150%;text-align: left;">
                         
-                            <p><span style="font-size:16px">“<span style="font-family:georgia,times,times new roman,serif"><em><span style="color:#000000">Recognizing the need is the primary condition for design.</span></em></span>”&nbsp;<span style="color:#aaaaaa"><span style="font-family:georgia,times,times new roman,serif"><em>Charles Eames</em></span></span></span></p>
+                            <p style="margin: 10px 0;padding: 0;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #202020;font-family: Helvetica;font-size: 16px;line-height: 150%;text-align: left;"><span style="font-size:16px">“<span style="font-family:georgia,times,times new roman,serif"><em><span style="color:#000000">Get rid of everything that is not essential to making a point.</span></em></span>”&nbsp;<span style="color:#aaaaaa"><span style="font-family:georgia,times,times new roman,serif"><em>Christoph Niemann</em></span></span></span></p>
 
                         </td>
                     </tr>
@@ -665,16 +514,16 @@
             </td>
         </tr>
     </tbody>
-</table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnImageBlock" style="min-width:100%;">
+</table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnImageBlock" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
     <tbody class="mcnImageBlockOuter">
             <tr>
-                <td valign="top" style="padding:9px" class="mcnImageBlockInner">
-                    <table align="left" width="100%" border="0" cellpadding="0" cellspacing="0" class="mcnImageContentContainer" style="min-width:100%;">
+                <td valign="top" style="padding: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" class="mcnImageBlockInner">
+                    <table align="left" width="100%" border="0" cellpadding="0" cellspacing="0" class="mcnImageContentContainer" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                         <tbody><tr>
-                            <td class="mcnImageContent" valign="top" style="padding-right: 9px; padding-left: 9px; padding-top: 0; padding-bottom: 0; text-align:center;">
+                            <td class="mcnImageContent" valign="top" style="padding-right: 9px;padding-left: 9px;padding-top: 0;padding-bottom: 0;text-align: center;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                                 
                                     
-                                        <img align="center" alt="" src="https://mcusercontent.com/b0129fbb699ee7275474e2a97/images/ee20c222-49c5-4380-86f2-f406b7f8edb6.png" width="564" style="max-width: 800px; padding-bottom: 0px; vertical-align: bottom; display: inline !important; border-radius: 1%;" class="mcnImage">
+                                        <img align="center" alt="" src="https://mcusercontent.com/b0129fbb699ee7275474e2a97/images/0fc9a8d7-a677-4724-afa3-9811eea6ca85.png" width="564" style="max-width: 800px;padding-bottom: 0px;vertical-align: bottom;display: inline !important;border-radius: 1%;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" class="mcnImage">
                                     
                                 
                             </td>
@@ -683,10 +532,10 @@
                 </td>
             </tr>
     </tbody>
-</table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnTextBlock" style="min-width:100%;">
+</table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnTextBlock" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
     <tbody class="mcnTextBlockOuter">
         <tr>
-            <td valign="top" class="mcnTextBlockInner" style="padding-top:9px;">
+            <td valign="top" class="mcnTextBlockInner" style="padding-top: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
               	<!--[if mso]>
 				<table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
 				<tr>
@@ -695,18 +544,33 @@
 				<!--[if mso]>
 				<td valign="top" width="600" style="width:600px;">
 				<![endif]-->
-                <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width:100%; min-width:100%;" width="100%" class="mcnTextContentContainer">
+                <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width: 100%;min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%" class="mcnTextContentContainer">
                     <tbody><tr>
                         
-                        <td valign="top" class="mcnTextContent" style="padding-top:0; padding-right:18px; padding-bottom:9px; padding-left:18px;">
+                        <td valign="top" class="mcnTextContent" style="padding-top: 0;padding-right: 18px;padding-bottom: 9px;padding-left: 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #202020;font-family: Helvetica;font-size: 16px;line-height: 150%;text-align: left;">
                         
-                            <span style="font-size:12px"><span style="color:#333333"></span></span></td></tr></tbody></table></td></tr></tbody></table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnDividerBlock" style="min-width:100%;">
+                            <span style="font-size:12px"><span style="color:#333333">&nbsp;</span><a href="https://www.instagram.com/nicholasasmitaa/?ref=uxdatabase.io" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #007C89;font-weight: normal;text-decoration: underline;">Thanks to Nicholas Lokasasmita for this issue artwork</a></span>
+                        </td>
+                    </tr>
+                </tbody></table>
+				<!--[if mso]>
+				</td>
+				<![endif]-->
+                
+				<!--[if mso]>
+				</tr>
+				</table>
+				<![endif]-->
+            </td>
+        </tr>
+    </tbody>
+</table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnDividerBlock" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;table-layout: fixed !important;">
     <tbody class="mcnDividerBlockOuter">
         <tr>
-            <td class="mcnDividerBlockInner" style="min-width: 100%; padding: 8px 18px;">
-                <table class="mcnDividerContent" border="0" cellpadding="0" cellspacing="0" width="100%" style="min-width: 100%;border-top: 2px none #EAEAEA;">
+            <td class="mcnDividerBlockInner" style="min-width: 100%;padding: 8px 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                <table class="mcnDividerContent" border="0" cellpadding="0" cellspacing="0" width="100%" style="min-width: 100%;border-top: 2px none #EAEAEA;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                     <tbody><tr>
-                        <td>
+                        <td style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                             <span></span>
                         </td>
                     </tr>
@@ -721,10 +585,10 @@
 </table></td>
                             </tr>
                             <tr>
-                                <td valign="top" id="templateBody"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnTextBlock" style="min-width:100%;">
+                                <td valign="top" id="templateBody" style="background:#ffffff none no-repeat center/cover;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;background-color: #ffffff;background-image: none;background-repeat: no-repeat;background-position: center;background-size: cover;border-top: 0;border-bottom: 0;padding-top: 0;padding-bottom: 9px;"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnTextBlock" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
     <tbody class="mcnTextBlockOuter">
         <tr>
-            <td valign="top" class="mcnTextBlockInner" style="padding-top:9px;">
+            <td valign="top" class="mcnTextBlockInner" style="padding-top: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
               	<!--[if mso]>
 				<table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
 				<tr>
@@ -733,22 +597,22 @@
 				<!--[if mso]>
 				<td valign="top" width="600" style="width:600px;">
 				<![endif]-->
-                <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width:100%; min-width:100%;" width="100%" class="mcnTextContentContainer">
+                <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width: 100%;min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%" class="mcnTextContentContainer">
                     <tbody><tr>
                         
-                        <td valign="top" class="mcnTextContent" style="padding: 0px 18px 9px; line-height: 150%;">
+                        <td valign="top" class="mcnTextContent" style="padding: 0px 18px 9px;line-height: 150%;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #202020;font-family: Helvetica;font-size: 16px;text-align: left;">
                         
-                            <h1><span style="color:#333333"><span style="font-size:24px"><span style="background-color:#FAEBD7">First MVP&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span></span></span></h1>
+                            <h1 style="display: block;margin: 0;padding: 0;color: #202020;font-family: Helvetica;font-size: 26px;font-style: normal;font-weight: bold;line-height: 125%;letter-spacing: normal;text-align: left;"><span style="color:#333333"><span style="font-size:24px"><span style="background-color:#FAEBD7">#01 Art_ndDesign&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span></span></span></h1>
 
-<p style="line-height: 150%;"><span style="font-size:14px">This is the first project that I show to so many people at the same time, and the fear is quite big, but, fuck it, if you don't try you won't get it. What do I give up in a month? maybe, what continues and it is a success? congrats you all, because I won't have achieved it, I only curate content and layout them, you will be the ones who make it.<br>
+<p style="line-height: 150%;margin: 10px 0;padding: 0;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #202020;font-family: Helvetica;font-size: 16px;text-align: left;"><span style="font-size:14px">I hate to introduce myself, but they forced me to do it, so here I am..<br>
 <br>
-It will be divided in two parts, articles and ideas from studios, design teams and/or individuals; and the products section, which is self-explanatory.&nbsp;I may&nbsp;use this first introductory part as a small synthesis of that I've learned throughout the week, ideas that comes to my mind, or nothing at all, that's what MVP's are for.<br>
+I'm Rosa Cortázar, finishing my degree in Art History, as I'm also interested in Design History since I see a very light gradient between them. Every four weeks, I'm going to write an article with my reflections and ramblings, relating artistic movements or specific artists.<br>
 <br>
-The intention of these publications is that the readers will be able to take the resources they need, read the three pieces of crap that I wrote, and do something else in less than a couple of minutes; the goal of the publication is not to retain the reader, zero friction.</span><br>
+I still have a lot to learn and probably some people won't agree with my words; but I am looking forward to try, to tell you what is going on in my mind and to debate with whoever wants!<br>
 <br>
-<span style="font-size:14px">Thanks to all who have subscribed, you guys rules &lt;3<br>
+If you have any suggestion of any special topic you want me to talk about, feel free to contact me by <a href="mailto:rosacortazar98@gmail.com" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #007C89;font-weight: normal;text-decoration: underline;">email</a> or my Linkedin, <a href="https://www.linkedin.com/in/rosacortazarmelendez/" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #007C89;font-weight: normal;text-decoration: underline;">Rosa Cortázar Meléndez</a>.<br>
 <br>
-<a href="mailto:mailto:" target="_blank">Any feedback is more than welcome</a></span></p>
+Strawberry kisses &lt;3</span></p>
 
                         </td>
                     </tr>
@@ -764,13 +628,13 @@ The intention of these publications is that the readers will be able to take the
             </td>
         </tr>
     </tbody>
-</table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnDividerBlock" style="min-width:100%;">
+</table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnDividerBlock" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;table-layout: fixed !important;">
     <tbody class="mcnDividerBlockOuter">
         <tr>
-            <td class="mcnDividerBlockInner" style="min-width: 100%; padding: 12px 18px;">
-                <table class="mcnDividerContent" border="0" cellpadding="0" cellspacing="0" width="100%" style="min-width: 100%;border-top: 2px none #EAEAEA;">
+            <td class="mcnDividerBlockInner" style="min-width: 100%;padding: 12px 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                <table class="mcnDividerContent" border="0" cellpadding="0" cellspacing="0" width="100%" style="min-width: 100%;border-top: 2px none #EAEAEA;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                     <tbody><tr>
-                        <td>
+                        <td style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                             <span></span>
                         </td>
                     </tr>
@@ -782,10 +646,10 @@ The intention of these publications is that the readers will be able to take the
             </td>
         </tr>
     </tbody>
-</table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnTextBlock" style="min-width:100%;">
+</table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnTextBlock" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
     <tbody class="mcnTextBlockOuter">
         <tr>
-            <td valign="top" class="mcnTextBlockInner" style="padding-top:9px;">
+            <td valign="top" class="mcnTextBlockInner" style="padding-top: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
               	<!--[if mso]>
 				<table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
 				<tr>
@@ -794,24 +658,33 @@ The intention of these publications is that the readers will be able to take the
 				<!--[if mso]>
 				<td valign="top" width="600" style="width:600px;">
 				<![endif]-->
-                <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width:100%; min-width:100%;" width="100%" class="mcnTextContentContainer">
+                <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width: 100%;min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%" class="mcnTextContentContainer">
                     <tbody><tr>
                         
-                        <td valign="top" class="mcnTextContent" style="padding: 0px 18px 9px; line-height: 150%;">
+                        <td valign="top" class="mcnTextContent" style="padding: 0px 18px 9px;line-height: 150%;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #202020;font-family: Helvetica;font-size: 16px;text-align: left;">
                         
-                            <h1><span style="font-size:22px"><span style="color:#000000"><span style="background-color:#eeeeee">Articles &amp; Ideas&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span></span></span></h1>
+                            <h1 style="display: block;margin: 0;padding: 0;color: #202020;font-family: Helvetica;font-size: 26px;font-style: normal;font-weight: bold;line-height: 125%;letter-spacing: normal;text-align: left;"><span style="font-size:22px"><span style="color:#000000"><span style="background-color:#eeeeee">Articles &amp; Ideas&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span></span></span></h1>
 
-<p style="line-height: 150%;"><a href="https://dribbble.com/NewhouseDesigns" target="_blank"><span style="color:#000000"><span style="font-size:16px"><strong>Guide to content strategy for design systems</strong></span></span></a><br>
-<span style="font-size:14px">When it comes to adding copy and content to your product, you’re doing pretty well if you have…&nbsp;<em>Peter Zogas&nbsp;</em></span><br>
+<p style="line-height: 150%;margin: 10px 0;padding: 0;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #202020;font-family: Helvetica;font-size: 16px;text-align: left;"><a href="https://matthewstrom.com/ethics/consequentialism?utm_source=uxdatabase.io&amp;utm_medium=newsletter&amp;utm_campaign=issue02" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #007C89;font-weight: normal;text-decoration: underline;"><span style="color:#000000"><span style="font-size:16px"><strong>Ethics for designers IV: Consequentialism</strong></span></span></a><br>
+<span style="font-size:14px">The goal of this series is to provide designers with tools to apply in their everyday work to make more ethically aware decisions. In Part 4, we’ll look at another school of ethics: consequentialism.&nbsp;<em><span style="color:#808080">Matthew Ström</span>&nbsp;</em></span><br>
 <br>
-<a href="https://dribbble.com/NewhouseDesigns" target="_blank"><span style="color:#000000"><span style="font-size:16px"><strong>Guide to content strategy for design systems</strong></span></span></a><br>
-<span style="font-size:14px">When it comes to adding copy and content to your product, you’re doing pretty well if you have…&nbsp;<em>Peter Zogas&nbsp;</em></span><br>
+<a href="https://growth.design/psychology/?utm_source=uxdatabase.io&amp;utm_medium=newsletter&amp;utm_campaign=issue02" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #007C89;font-weight: normal;text-decoration: underline;"><span style="color:#000000"><span style="font-size:16px"><strong>101 Cognitive Biases &amp; Principles That Affect Your UX</strong></span></span></a><br>
+<span style="font-size:14px">To improve your user experience, you need to understand the biases &amp; heuristics affecting those four decision-cycle steps.&nbsp;<span style="color:#808080"><em>growth.design</em></span></span><br>
 <br>
-<a href="https://dribbble.com/NewhouseDesigns" target="_blank"><span style="color:#000000"><span style="font-size:16px"><strong>Making design systems public</strong></span></span></a><br>
-<span style="font-size:14px">Is making your design system public worth the effort? In short: yes, it is. Designers and developers often…&nbsp;<em>Peter Zogas&nbsp;</em></span><br>
+<a href="https://www.smashingmagazine.com/2020/05/convince-others-against-dark-patterns/?utm_source=uxdatabase.io&amp;utm_medium=newsletter&amp;utm_campaign=issue02" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #007C89;font-weight: normal;text-decoration: underline;"><span style="color:#000000"><span style="font-size:16px"><strong>How To Convince Others Not To Use Dark Patterns</strong></span></span></a><br>
+<span style="font-size:14px">Arguing that dark patterns are unethical is not enough on its own. We will also need to make the case to clients and colleagues that they are damaging to business.&nbsp;<em><span style="color:#808080">Paul Boag</span></em></span><br>
 <br>
-<a href="https://dribbble.com/NewhouseDesigns" target="_blank"><span style="color:#000000"><span style="font-size:16px"><strong>Finding time: How to increase heads-down time to design</strong></span></span></a><br>
-<span style="font-size:14px">Good design derives from good thinking. And good thinking is highly correlated to how much time you spend.…&nbsp;<em>Peter Zogas&nbsp;</em></span></p>
+<a href="https://www.abstract.com/blog/designer-business-behind-buttons?utm_source=uxdatabase.io&amp;utm_medium=newsletter&amp;utm_campaign=issue02" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #007C89;font-weight: normal;text-decoration: underline;"><span style="color:#000000"><span style="font-size:16px"><strong>Uncovering the business behind the buttons</strong></span></span></a><br>
+<span style="font-size:14px">Often, the same designers who can solve for their user-centric goals with ease have trouble solving for business goals, too.&nbsp;<span style="color:#808080"><em>Jordan Staniscia&nbsp;</em></span></span><br>
+<br>
+<a href="https://www.nngroup.com/articles/face-recognition-pay/?utm_source=uxdatabase.io&amp;utm_medium=newsletter&amp;utm_campaign=issue02" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #007C89;font-weight: normal;text-decoration: underline;"><span style="color:#000000"><span style="font-size:16px"><strong>Making Cutting-Edge Technology Approachable: A Case Study of Facial-Recognition Payment in China</strong></span></span></a><br>
+<span style="font-size:14px">Facial-recognition payment is convenient, but users were concerned and confused after using it for the first time.&nbsp;<em><span style="color:#808080">Feifei Liu</span>&nbsp;</em></span><br>
+<br>
+<a href="https://articles.uie.com/the-power-of-experience-mapping/?utm_source=uxdatabase.io&amp;utm_medium=newsletter&amp;utm_campaign=issue02" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #007C89;font-weight: normal;text-decoration: underline;"><span style="color:#000000"><span style="font-size:16px"><strong>The Power of Experience Mapping</strong></span></span></a><br>
+<span style="font-size:14px">Years ago, I stumbled upon a definition I’ve become quite fond of: Design is the rendering of intent.&nbsp;<em><span style="color:#808080">Jared M. Spool</span>&nbsp;</em></span><br>
+<br>
+<a href="https://www.smashingmagazine.com/2020/05/micro-typography-space-kern-punctuation-marks-symbols/?ref=heydesigner?utm_source=uxdatabase.io&amp;utm_medium=newsletter&amp;utm_campaign=issue02" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #007C89;font-weight: normal;text-decoration: underline;"><span style="color:#000000"><span style="font-size:16px"><strong>Micro-Typography: How To Space And Kern Punctuation Marks And Other Symbols</strong></span></span></a><br>
+<span style="font-size:14px">How do we add spacing to punctuation marks and other symbols, and how do we adjust the space on the left and right side in an easy and consistent way?&nbsp;<span style="color:#808080"><em>Thomas Bohm</em></span></span></p>
 
                         </td>
                     </tr>
@@ -827,13 +700,13 @@ The intention of these publications is that the readers will be able to take the
             </td>
         </tr>
     </tbody>
-</table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnDividerBlock" style="min-width:100%;">
+</table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnDividerBlock" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;table-layout: fixed !important;">
     <tbody class="mcnDividerBlockOuter">
         <tr>
-            <td class="mcnDividerBlockInner" style="min-width: 100%; padding: 6px 18px;">
-                <table class="mcnDividerContent" border="0" cellpadding="0" cellspacing="0" width="100%" style="min-width: 100%;border-top: 2px none #EAEAEA;">
+            <td class="mcnDividerBlockInner" style="min-width: 100%;padding: 6px 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                <table class="mcnDividerContent" border="0" cellpadding="0" cellspacing="0" width="100%" style="min-width: 100%;border-top: 2px none #EAEAEA;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                     <tbody><tr>
-                        <td>
+                        <td style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                             <span></span>
                         </td>
                     </tr>
@@ -845,16 +718,16 @@ The intention of these publications is that the readers will be able to take the
             </td>
         </tr>
     </tbody>
-</table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnImageBlock" style="min-width:100%;">
+</table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnImageBlock" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
     <tbody class="mcnImageBlockOuter">
             <tr>
-                <td valign="top" style="padding:9px" class="mcnImageBlockInner">
-                    <table align="left" width="100%" border="0" cellpadding="0" cellspacing="0" class="mcnImageContentContainer" style="min-width:100%;">
+                <td valign="top" style="padding: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" class="mcnImageBlockInner">
+                    <table align="left" width="100%" border="0" cellpadding="0" cellspacing="0" class="mcnImageContentContainer" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                         <tbody><tr>
-                            <td class="mcnImageContent" valign="top" style="padding-right: 9px; padding-left: 9px; padding-top: 0; padding-bottom: 0; text-align:center;">
+                            <td class="mcnImageContent" valign="top" style="padding-right: 9px;padding-left: 9px;padding-top: 0;padding-bottom: 0;text-align: center;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                                 
-                                    <a href="mailto:jujemido@gmail.com?subject=UXDB%20-%20Illustrations&amp;body=Hello!%20I%20want%20to%20know%20more%20about%20how%20can%20I%20help%20with%20my%20illustrations%20%3AD%0A%0A%3C3%0A%0A" title="" class="" target="_blank">
-                                        <img align="center" alt="" src="https://mcusercontent.com/b0129fbb699ee7275474e2a97/images/7dfef2c5-ea2e-47b8-abc3-f7691555b6dd.png" width="564" style="max-width:800px; padding-bottom: 0; display: inline !important; vertical-align: bottom;" class="mcnImage">
+                                    <a href="mailto:jmillo@uxdatabase.io?subject=UXDB%20-%20Illustrations&amp;body=Hello!%20I%20want%20to%20know%20more%20about%20how%20can%20I%20help%20with%20my%20illustrations%20%3AD%0A%0A%3C3%0A%0A" title="" class="" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                                        <img align="center" alt="" src="https://mcusercontent.com/b0129fbb699ee7275474e2a97/images/7dfef2c5-ea2e-47b8-abc3-f7691555b6dd.png" width="564" style="max-width: 800px;padding-bottom: 0;display: inline !important;vertical-align: bottom;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" class="mcnImage">
                                     </a>
                                 
                             </td>
@@ -863,13 +736,13 @@ The intention of these publications is that the readers will be able to take the
                 </td>
             </tr>
     </tbody>
-</table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnDividerBlock" style="min-width:100%;">
+</table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnDividerBlock" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;table-layout: fixed !important;">
     <tbody class="mcnDividerBlockOuter">
         <tr>
-            <td class="mcnDividerBlockInner" style="min-width: 100%; padding: 8px 18px;">
-                <table class="mcnDividerContent" border="0" cellpadding="0" cellspacing="0" width="100%" style="min-width: 100%;border-top: 2px none #EAEAEA;">
+            <td class="mcnDividerBlockInner" style="min-width: 100%;padding: 8px 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                <table class="mcnDividerContent" border="0" cellpadding="0" cellspacing="0" width="100%" style="min-width: 100%;border-top: 2px none #EAEAEA;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                     <tbody><tr>
-                        <td>
+                        <td style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                             <span></span>
                         </td>
                     </tr>
@@ -881,10 +754,10 @@ The intention of these publications is that the readers will be able to take the
             </td>
         </tr>
     </tbody>
-</table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnTextBlock" style="min-width:100%;">
+</table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnTextBlock" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
     <tbody class="mcnTextBlockOuter">
         <tr>
-            <td valign="top" class="mcnTextBlockInner" style="padding-top:9px;">
+            <td valign="top" class="mcnTextBlockInner" style="padding-top: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
               	<!--[if mso]>
 				<table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
 				<tr>
@@ -893,18 +766,39 @@ The intention of these publications is that the readers will be able to take the
 				<!--[if mso]>
 				<td valign="top" width="600" style="width:600px;">
 				<![endif]-->
-                <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width:100%; min-width:100%;" width="100%" class="mcnTextContentContainer">
+                <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width: 100%;min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%" class="mcnTextContentContainer">
                     <tbody><tr>
                         
-                        <td valign="top" class="mcnTextContent" style="padding: 0px 18px 9px; line-height: 150%;">
+                        <td valign="top" class="mcnTextContent" style="padding: 0px 18px 9px;line-height: 150%;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #202020;font-family: Helvetica;font-size: 16px;text-align: left;">
                         
-                            <h1><span style="font-size:22px"><span style="color:#000000"><span style="background-color:#eeeeee">Productsss&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span></span></span></h1>
+                            <h1 style="display: block;margin: 0;padding: 0;color: #202020;font-family: Helvetica;font-size: 26px;font-style: normal;font-weight: bold;line-height: 125%;letter-spacing: normal;text-align: left;"><span style="font-size:22px"><span style="color:#000000"><span style="background-color:#eeeeee">Productsss&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span></span></span></h1>
 
-<p style="line-height: 150%;"><a href="https://dribbble.com/NewhouseDesigns" target="_blank"><span style="color:#000000"><span style="font-size:16px"><strong>How to use Roam Research: a tool for metacognition</strong></span></span></a><br>
-<span style="font-size:14px">I’ve never been a huge fan of knowledge management tools. Too rigid, too complex, not adapted to the…&nbsp;<em>Peter Zogas&nbsp;</em></span><br>
+<p style="line-height: 150%;margin: 10px 0;padding: 0;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #202020;font-family: Helvetica;font-size: 16px;text-align: left;"><a href="https://blush.design/?utm_source=uxdatabase.io&amp;utm_medium=newsletter&amp;utm_campaign=issue02" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #007C89;font-weight: normal;text-decoration: underline;"><span style="color:#000000"><span style="font-size:16px"><strong>Blush</strong></span></span></a><br>
+<span style="font-size:14px">Illustrations for Everyone. Create, mix, and customize illustrations made by artists around the world.</span><br>
 <br>
-<a href="https://dribbble.com/NewhouseDesigns" target="_blank"><span style="color:#000000"><span style="font-size:16px"><strong>Better image optimization by restricting the color index</strong></span></span></a><br>
-<span style="font-size:14px">Let’s talk about image optimization. There are a few images used in meyerweb’s new design, and while I…&nbsp;<em>Peter Zogas&nbsp;</em></span></p>
+<a href="https://chilipepper.io/?utm_source=uxdatabase.io&amp;utm_medium=newsletter&amp;utm_campaign=issue02" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #007C89;font-weight: normal;text-decoration: underline;"><span style="color:#000000"><span style="font-size:16px"><strong>Chilipepper</strong></span></span></a><br>
+<span style="font-size:14px">Forms for Notion. Chilipepper forms are straight forward, fast, and suited for helping you get the data you need.</span><br>
+<br>
+<a href="https://norde.io/?utm_source=uxdatabase.io&amp;utm_medium=newsletter&amp;utm_campaign=issue02" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #007C89;font-weight: normal;text-decoration: underline;"><span style="color:#000000"><span style="font-size:16px"><strong>Norde Source - SVG Icon manager and editor</strong></span></span></a><br>
+<span style="font-size:14px">Norde Source makes it easy to customize entire icon sets to fit your brand. Built for designers, developers, marketers and anyone who works with a lot of icons.</span><br>
+<br>
+<a href="https://www.figma.com/resources/learn-design/?utm_source=uxdatabase.io&amp;utm_medium=newsletter&amp;utm_campaign=issue02" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #007C89;font-weight: normal;text-decoration: underline;"><span style="color:#000000"><span style="font-size:16px"><strong>Learn Design with Figma</strong></span></span></a><br>
+<span style="font-size:14px">Want to get started in design, but don’t know where to begin? These lessons and exercises will help you start designing immediately.</span><br>
+<br>
+<a href="https://maze.design/features/discovery/?utm_source=uxdatabase.io&amp;utm_medium=newsletter&amp;utm_campaign=issue02" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #007C89;font-weight: normal;text-decoration: underline;"><span style="color:#000000"><span style="font-size:16px"><strong>Maze Discovery</strong></span></span></a><br>
+<span style="font-size:14px">Discover user insights early. Get user insights and validate ideas before you start designing so you can make better product decisions.</span><br>
+<br>
+<a href="https://www.pixelic.io/?utm_source=uxdatabase.io&amp;utm_medium=newsletter&amp;utm_campaign=issue02" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #007C89;font-weight: normal;text-decoration: underline;"><span style="color:#000000"><span style="font-size:16px"><strong>Pixelic.io</strong></span></span></a><br>
+<span style="font-size:14px">Clubhouse for Figma users to collaborate on design feedback, design task, version control, and system of record.</span><br>
+<br>
+<a href="https://www.figma.com/community/plugin/838708163765754317/Hidden-Kittens?utm_source=uxdatabase.io&amp;utm_medium=newsletter&amp;utm_campaign=issue02" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #007C89;font-weight: normal;text-decoration: underline;"><span style="color:#000000"><span style="font-size:16px"><strong>Hidden Kittens (Figma Plugin)</strong></span></span></a><br>
+<span style="font-size:14px">The Hidden Kittens plugin will help give an emotional touch to your work. These Kittens are skilled at design and they will tell you what they think about your design decisions.</span><br>
+<br>
+<a href="https://designerslack.community/?utm_source=uxdatabase.io&amp;utm_medium=newsletter&amp;utm_campaign=issue02" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #007C89;font-weight: normal;text-decoration: underline;"><span style="color:#000000"><span style="font-size:16px"><strong>Designer Slack</strong></span></span></a><br>
+<span style="font-size:14px">Curate directory of public and private slacks and communities</span><br>
+<br>
+<a href="https://manojvivek.github.io/responsively-app/?utm_source=uxdatabase.io&amp;utm_medium=newsletter&amp;utm_campaign=issue02" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #007C89;font-weight: normal;text-decoration: underline;"><span style="color:#000000"><span style="font-size:16px"><strong>Responsively</strong></span></span></a><br>
+<span style="font-size:14px">Develop responsive web apps 5x faster! Preview all target screens in a single window side-by-side. Brings down your development time!</span></p>
 
                         </td>
                     </tr>
@@ -920,13 +814,13 @@ The intention of these publications is that the readers will be able to take the
             </td>
         </tr>
     </tbody>
-</table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnDividerBlock" style="min-width:100%;">
+</table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnDividerBlock" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;table-layout: fixed !important;">
     <tbody class="mcnDividerBlockOuter">
         <tr>
-            <td class="mcnDividerBlockInner" style="min-width: 100%; padding: 8px 18px;">
-                <table class="mcnDividerContent" border="0" cellpadding="0" cellspacing="0" width="100%" style="min-width: 100%;border-top: 2px none #EAEAEA;">
+            <td class="mcnDividerBlockInner" style="min-width: 100%;padding: 8px 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                <table class="mcnDividerContent" border="0" cellpadding="0" cellspacing="0" width="100%" style="min-width: 100%;border-top: 2px none #EAEAEA;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                     <tbody><tr>
-                        <td>
+                        <td style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                             <span></span>
                         </td>
                     </tr>
@@ -941,15 +835,15 @@ The intention of these publications is that the readers will be able to take the
 </table></td>
                             </tr>
                             <tr>
-                                <td valign="top" id="templateFooter"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnButtonBlock" style="min-width:100%;">
+                                <td valign="top" id="templateFooter" style="background:#ffffff none no-repeat center/cover;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;background-color: #ffffff;background-image: none;background-repeat: no-repeat;background-position: center;background-size: cover;border-top: 0;border-bottom: 0;padding-top: 9px;padding-bottom: 9px;"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnButtonBlock" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
     <tbody class="mcnButtonBlockOuter">
         <tr>
-            <td style="padding-top:0; padding-right:18px; padding-bottom:18px; padding-left:18px;" valign="top" align="left" class="mcnButtonBlockInner">
-                <table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnButtonContentContainer" style="border-collapse: separate !important;border-radius: 4px;background-color: #000000;">
+            <td style="padding-top: 0;padding-right: 18px;padding-bottom: 18px;padding-left: 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top" align="left" class="mcnButtonBlockInner">
+                <table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnButtonContentContainer" style="border-collapse: separate !important;border: 2px none;border-radius: 4px;background-color: #222222;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                     <tbody>
                         <tr>
-                            <td align="center" valign="middle" class="mcnButtonContent" style="font-family: Arial; font-size: 16px; padding: 18px;">
-                                <a class="mcnButton " title="Check the lastest issues" href="http://google.es" target="_blank" style="font-weight: bold;letter-spacing: normal;line-height: 100%;text-align: center;text-decoration: none;color: #FFFFFF;">Check the lastest issues</a>
+                            <td align="center" valign="middle" class="mcnButtonContent" style="font-family: Arial;font-size: 16px;padding: 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                                <a class="mcnButton .mc4wp-form input[type=submit]:hover{ background-color: #ff5c5c; }" title="Check the lastest issues" href="https://www.uxdatabase.io/" target="_blank" style="font-weight: bold;letter-spacing: normal;line-height: 100%;text-align: center;text-decoration: none;color: #FFFFFF;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;display: block;">Check the lastest issues</a>
                             </td>
                         </tr>
                     </tbody>
@@ -957,10 +851,10 @@ The intention of these publications is that the readers will be able to take the
             </td>
         </tr>
     </tbody>
-</table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnTextBlock" style="min-width:100%;">
+</table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnTextBlock" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
     <tbody class="mcnTextBlockOuter">
         <tr>
-            <td valign="top" class="mcnTextBlockInner" style="padding-top:9px;">
+            <td valign="top" class="mcnTextBlockInner" style="padding-top: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
               	<!--[if mso]>
 				<table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
 				<tr>
@@ -969,10 +863,10 @@ The intention of these publications is that the readers will be able to take the
 				<!--[if mso]>
 				<td valign="top" width="600" style="width:600px;">
 				<![endif]-->
-                <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width:100%; min-width:100%;" width="100%" class="mcnTextContentContainer">
+                <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width: 100%;min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%" class="mcnTextContentContainer">
                     <tbody><tr>
                         
-                        <td valign="top" class="mcnTextContent" style="padding-top:0; padding-right:18px; padding-bottom:9px; padding-left:18px;">
+                        <td valign="top" class="mcnTextContent" style="padding-top: 0;padding-right: 18px;padding-bottom: 9px;padding-left: 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #656565;font-family: Helvetica;font-size: 12px;line-height: 150%;text-align: center;">
                         
                             
                         </td>
@@ -989,10 +883,10 @@ The intention of these publications is that the readers will be able to take the
             </td>
         </tr>
     </tbody>
-</table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnTextBlock" style="min-width:100%;">
+</table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnTextBlock" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
     <tbody class="mcnTextBlockOuter">
         <tr>
-            <td valign="top" class="mcnTextBlockInner" style="padding-top:9px;">
+            <td valign="top" class="mcnTextBlockInner" style="padding-top: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
               	<!--[if mso]>
 				<table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
 				<tr>
@@ -1001,7 +895,21 @@ The intention of these publications is that the readers will be able to take the
 				<!--[if mso]>
 				<td valign="top" width="600" style="width:600px;">
 				<![endif]-->
-
+                <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width: 100%;min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%" class="mcnTextContentContainer">
+                    <tbody><tr>
+                        
+                        <td valign="top" class="mcnTextContent" style="padding-top: 0;padding-right: 18px;padding-bottom: 9px;padding-left: 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #656565;font-family: Helvetica;font-size: 12px;line-height: 150%;text-align: center;">
+                        
+                            <em>Copyright © *|CURRENT_YEAR|* *|LIST:COMPANY|*, All rights reserved.</em><br>
+<br>
+*|IFNOT:ARCHIVE_PAGE|* *|LIST:DESCRIPTION|*<br>
+<br>
+*|HTML:LIST_ADDRESS_HTML|* *|END:IF|* |&nbsp;<a href="*|UPDATE_PROFILE|*" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #656565;font-weight: normal;text-decoration: underline;">Update preferences</a>&nbsp;|&nbsp;<a href="*|UNSUB|*" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #656565;font-weight: normal;text-decoration: underline;">Unsubscribe</a><br>
+<br>
+*|IF:REWARDS|* *|HTML:REWARDS|* *|END:IF|*
+                        </td>
+                    </tr>
+                </tbody></table>
 				<!--[if mso]>
 				</td>
 				<![endif]-->
